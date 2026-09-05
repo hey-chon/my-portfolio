@@ -36,7 +36,7 @@ const projects = [
       "A personal space to showcase my projects, skills, journey and my story. Feel free to explore and interact with my personal website portfolio.",
     kind: "portfolio",
     screenshot: "project-personal-portfolio.jpg",
-    href: "https://chondev.netlify.app",
+    href: "https://chon-vert.vercel.app",
     label: "Inspect",
     className: "project-a",
   },
