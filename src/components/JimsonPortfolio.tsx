@@ -631,8 +631,8 @@ export function JimsonPortfolio() {
             <Reveal className="jp-about-copy">
               <span className="jp-kicker">About Jimson</span>
               <h2>A developer who builds <span>experiences</span> that matter.</h2>
-              <p className="jp-body">Motivated and dedicated Senior High School Student specializing in Information &amp; Communication Technology with a passion for web development. I have experience in front-end development and currently expanding into back-end — eager to apply my skills, learn more, and contribute to professional environments.</p>
-              <div className="jp-about-foot"><div><b>13+</b>projects built</div><div><b>94</b>top average</div><div><b><Infinity size={23} /></b>curiosity</div></div>
+              <p className="jp-body">Motivated and dedicated Senior High School Student specializing in Information &amp; Communication Technology with a passion in web development. I have experience in front-end development and currently expanding into back-end — eager to apply my skills, learn more, and contribute to professional environments.</p>
+              <div className="jp-about-foot"><div><b>10+</b>projects built</div><div><b>94</b>top average</div><div><b><Infinity size={23} /></b>curiosity</div></div>
             </Reveal>
           </div>
         </section>
@@ -649,7 +649,7 @@ export function JimsonPortfolio() {
                 <div className={`jp-project-visual ${project.screenshot ? "has-screenshot" : ""}`}><ProjectVisual kind={project.kind} /></div>
                 <div className="jp-project-detail">
                   <div><h3>{project.title}</h3><p>{project.description}</p>{project.private ? <span className="jp-project-link jp-project-private" aria-label={`${project.title} is private`}><LockKeyhole size={11} aria-hidden="true" />Private</span> : <a className="jp-project-link" href={project.href} target="_blank" rel="noopener noreferrer">{project.label} <ExternalLink size={11} /></a>}</div>
-                  <div className="jp-project-meta"><span><ArrowUpRight size={14} /></span>WEB<br />BUILD</div>
+                  <div className="jp-project-meta"><span><ArrowUpRight size={14} /></span>WEB<br />PROJECT</div>
                 </div>
               </Reveal>
             ))}
@@ -686,8 +686,7 @@ export function JimsonPortfolio() {
                   <>
                     <p className="jp-additional-copy">I’m also a consistent with honors, I always got line of 9 average and I never fail when it comes to academic achievement, I’m also a leader and I know how to handle a good team. I have certification on “student leadership training” and that serves as an instrument to become a good and trained leader. I have much more academic certificates but It’s not complete since the other certs got lost and I don’t know where can I find it.</p>
                     <div className="jp-additional-actions">
-                      <button className="jp-check-link" onClick={() => jump("certificates")}>Check here / leadership</button>
-                      <button className="jp-check-link" onClick={() => jump("certificates")}>Check here / certificates</button>
+                      <button className="jp-check-link" onClick={() => jump("certificates")}>Check here</button>
                     </div>
                   </>
                 )}
@@ -700,7 +699,7 @@ export function JimsonPortfolio() {
           <Reveal><SectionLabel>04 / Certificates &amp; recognition</SectionLabel></Reveal>
           <Reveal className="jp-project-heading">
             <h2>Proof of<br /><span style={{ color: "var(--violet)" }}>the hard work.</span></h2>
-            <p>From web development and AI fundamentals to focused front-end practice, each credential marks another step forward.</p>
+            <p>Every certificate here is a proof of progress — collected  along a lifelong path that's still unfolding. I've worked hard to earn this kind of achievements.</p>
           </Reveal>
           <div className="jp-certificate-grid">
             {certificates.map((certificate, index) => (
